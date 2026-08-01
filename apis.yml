@@ -1,8 +1,19 @@
 aid: scribe-therapeutics
 name: Scribe Therapeutics
-description: Scribe Therapeutics is a company surfaced as a portfolio company of a16z, menlo-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Scribe Therapeutics is a clinical-stage biotechnology company founded in 2018 and
+  headquartered in Alameda, California, engineering CRISPR-based genetic medicines
+  through its proprietary "CRISPR by Design" platform. Co-founded by molecular
+  engineers Benjamin Oakes, Brett Staahl, and David Savage alongside CRISPR co-inventor
+  Jennifer Doudna, the company builds highly engineered CasX-derived enzymes — including
+  its X-Editing (XE) molecules for precise gene editing and ELXR epigenetic long-term
+  X-repressor technology for durable gene silencing without altering the underlying DNA
+  sequence. Scribe focuses initially on cardiometabolic disease, the leading cause of
+  death globally, and expands into areas such as sickle cell disease and neurological
+  conditions through strategic pharmaceutical partnerships. The company is backed by
+  a16z and Menlo Ventures and was surfaced to the API Evangelist network as a venture
+  portfolio company. Scribe Therapeutics is a therapeutics and drug-discovery company
+  and does not currently publish a public developer API, SDK, or documented API surface.
 url: https://raw.githubusercontent.com/api-evangelist/scribe-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +22,57 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.scribetx.com/favicon.ico
 tags:
 - Company
+- Biotechnology
+- CRISPR
+- Gene Editing
+- Genetic Medicine
+- Therapeutics
+- Life Sciences
+- Drug Discovery
 apis: []
+common:
+- type: DomainSecurity
+  url: security/scribe-therapeutics-domain-security.yml
+- type: Website
+  url: https://www.scribetx.com/
+- type: About
+  url: https://www.scribetx.com/about
+- type: Blog
+  url: https://www.scribetx.com/news
+- type: Support
+  url: https://www.scribetx.com/contact
+- type: Careers
+  url: https://www.scribetx.com/careers
+- type: PrivacyPolicy
+  url: https://www.scribetx.com/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/scribe-therapeutics/
+- type: Twitter
+  url: https://x.com/scribetx
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
